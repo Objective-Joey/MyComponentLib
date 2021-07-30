@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-MyComponentLib/Pods-MyComponentLib-frameworks.sh
+${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework
+${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework
