@@ -8,5 +8,8 @@ target 'MyComponentLib' do
   # Pods for MyComponentLib
   pod 'QMUIKit'
   pod 'YYKit'
-
+  pod 'BRPickerView'
+  pod 'JXCategoryView'
+  pod 'JXPagingView/Pager'
+  pod 'JXCategoryView'
 end
