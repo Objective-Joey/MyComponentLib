@@ -12,4 +12,6 @@ target 'MyComponentLib' do
   pod 'JXCategoryView'
   pod 'JXPagingView/Pager'
   pod 'JXCategoryView'
+  pod 'JXMovableCellTableView'
+  pod 'FSCalendar'
 end
