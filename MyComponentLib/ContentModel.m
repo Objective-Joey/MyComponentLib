@@ -13,7 +13,7 @@
 - (NSArray *)headNameArray {
     
     if (_headNameArray == nil) {
-        _headNameArray = @[@"General ComponentLib",@"选择器",@"PageScrollView",@"Item指示器",@"tableViewExtension",@"MarqueeView",@"日历",@"弹框"];
+        _headNameArray = @[@"General ComponentLib",@"选择器",@"PageScrollView",@"Item指示器",@"TableViewExtension",@"MarqueeView",@"日历",@"弹框",@"CollectionViewExtension",@"抽屉侧滑",@"TabBarControllerExtension",@"视频播放",@"音频播放",@"布局",@"启动页引导图",@"图片视频选择器"];
     }
     return _headNameArray;
 }
@@ -26,10 +26,18 @@
         @[@"BRPickerView"],
         @[@"GKPageScrollView",@"JXPagingView"],
         @[@"JXCategoryView"],
-        @[@"JXMovableCellTableView",@"MJRefresh",@"DZNEmptyDataSet"],
+        @[@"JXMovableCellTableView",@"MJRefresh",@"DZNEmptyDataSet",@"Linkage",@"LYEmptyView",@"UITableViewLinkageDemo"],
         @[@"RollingNotice",@"UUMarqueeView",@"JhtMarquee"],
         @[@"FSCalendar",@"MSCollectionViewCalendarLayout",@"MSSCalendar",@"CalendarLib"],
-        @[@"WMZDialog"],
+        @[@"WMZDialog",@"EBBannerView",@"ZYSideSlipFilter"],
+        @[@"ZLCollectionView",@"HJCarouselDemo"],
+        @[@"CWLateralSlide"],
+        @[@"CYLTabBarController"],
+        @[@"ZFPlayer"],
+        @[@"ESTMusicPlayer"],
+        @[@"MyLinearLayout"],
+        @[@"DHGuidePageHUD"],
+        @[@"TZImagePickerController"],
         ];
     }
     return _demoArray;
@@ -51,6 +59,12 @@
                           @"RollingNotice":@"所有的垂向滚屏这一个库就够了！！！",
                           @"FSCalendar":@"非常多样式可选",
                           @"CalendarLib":@"scheduling events on iOS",
+                          @"ZLCollectionView":@"支持标签布局，列布局，百分比布局，定位布局，填充式布局，瀑布流布局",
+                          @"EBBannerView":@"顶部自定义通知弹框",
+                          @"Linkage":@"多列表联动",
+                          @"ESTMusicPlayer":@"基于DOUAudioStreamer 开发",
+                          @"ZYSideSlipFilter":@"侧边栏条件筛选器，功能:选择条件，保存选择状态，重置条件",
+                          @"TZImagePickerController":@"一个支持多选、选原图和视频的图片选择器，同时有预览功能"
                           };
     }
     return _describeDict;
