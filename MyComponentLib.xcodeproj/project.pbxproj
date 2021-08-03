@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -61,7 +61,6 @@
 				F33C69109CDE62739EFA1AE3 /* Pods-MyComponentLib.debug.xcconfig */,
 				5794375BED2041E1C9642FD1 /* Pods-MyComponentLib.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,6 +85,8 @@
 		D5F34F3126B3F63D001677F2 /* MyComponentLib */ = {
 			isa = PBXGroup;
 			children = (
+				D5F350D026B813A2001677F2 /* 手势冲突处理 */,
+				D5F350CF26B81393001677F2 /* 响应者链 */,
 				D5F34F4B26B3F71A001677F2 /* ContentModel.h */,
 				D5F34F4C26B3F71A001677F2 /* ContentModel.m */,
 				D5F34F3226B3F63D001677F2 /* AppDelegate.h */,
@@ -99,6 +100,20 @@
 				D5F34F4426B3F641001677F2 /* main.m */,
 			);
 			path = MyComponentLib;
+			sourceTree = "<group>";
+		};
+		D5F350CF26B81393001677F2 /* 响应者链 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "响应者链";
+			sourceTree = "<group>";
+		};
+		D5F350D026B813A2001677F2 /* 手势冲突处理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "手势冲突处理";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

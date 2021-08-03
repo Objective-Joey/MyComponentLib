@@ -13,7 +13,7 @@
 - (NSArray *)headNameArray {
     
     if (_headNameArray == nil) {
-        _headNameArray = @[@"General ComponentLib",@"选择器",@"PageScrollView",@"Item指示器",@"TableViewExtension",@"MarqueeView",@"日历",@"弹框",@"CollectionViewExtension",@"抽屉侧滑",@"TabBarControllerExtension",@"视频播放",@"音频播放",@"布局",@"启动页引导图",@"图片视频选择器"];
+        _headNameArray = @[@"General ComponentLib",@"选择器",@"PageScrollView",@"Item指示器",@"TableViewExtension",@"MarqueeView",@"日历",@"弹框",@"CollectionViewExtension",@"抽屉侧滑",@"TabBarControllerExtension",@"视频播放",@"音频播放",@"布局",@"启动页引导图",@"图片视频选择器",@"WKWebViewExtension",@"主题色管理",@"悬浮框",@"ButtonExtension",@"ImageExtension",@"轮播图",@"NaviExtension",@"LabelExtension"];
     }
     return _headNameArray;
 }
@@ -23,21 +23,29 @@
     if (_demoArray == nil) {
         _demoArray = @[
         @[@"QMUIKit",@"YYKit"],
-        @[@"BRPickerView"],
+        @[@"BRPickerView",@"RMDateSelectionViewController"],
         @[@"GKPageScrollView",@"JXPagingView"],
         @[@"JXCategoryView"],
-        @[@"JXMovableCellTableView",@"MJRefresh",@"DZNEmptyDataSet",@"Linkage",@"LYEmptyView",@"UITableViewLinkageDemo"],
+        @[@"JXMovableCellTableView",@"MJRefresh",@"DZNEmptyDataSet",@"Linkage",@"LYEmptyView",@"UITableViewLinkageDemo",@"TABAnimated"],
         @[@"RollingNotice",@"UUMarqueeView",@"JhtMarquee"],
         @[@"FSCalendar",@"MSCollectionViewCalendarLayout",@"MSSCalendar",@"CalendarLib"],
-        @[@"WMZDialog",@"EBBannerView",@"ZYSideSlipFilter"],
-        @[@"ZLCollectionView",@"HJCarouselDemo"],
+        @[@"WMZDialog",@"EBBannerView",@"ZYSideSlipFilter",@"GHDropMenuDemo"],
+        @[@"ZLCollectionView",@"HJCarouselDemo",@"TTGTagCollectionView",@"TYSnapshotScroll"],
         @[@"CWLateralSlide"],
         @[@"CYLTabBarController"],
-        @[@"ZFPlayer"],
+        @[@"ZFPlayer",@"ijkplayer"],
         @[@"ESTMusicPlayer"],
         @[@"MyLinearLayout"],
         @[@"DHGuidePageHUD"],
-        @[@"TZImagePickerController"],
+        @[@"TZImagePickerController",@"YBImageBrowser",@"GKPhotoBrowser"],
+        @[@"JXBWebKit"],
+        @[@"LEETheme"],
+        @[@"WMDragView"],
+        @[@"DCPathButton"],
+        @[@"FLAnimatedImage"],
+        @[@"SDCycleScrollView"],
+        @[@"GKNavigationBar",@"RTRootNavigationController"],
+        @[@"TTTAttributedLabel"],
         ];
     }
     return _demoArray;
@@ -64,7 +72,10 @@
                           @"Linkage":@"多列表联动",
                           @"ESTMusicPlayer":@"基于DOUAudioStreamer 开发",
                           @"ZYSideSlipFilter":@"侧边栏条件筛选器，功能:选择条件，保存选择状态，重置条件",
-                          @"TZImagePickerController":@"一个支持多选、选原图和视频的图片选择器，同时有预览功能"
+                          @"TZImagePickerController":@"一个支持多选、选原图和视频的图片选择器，同时有预览功能",
+                          @"LEETheme":@"思路也是用命令模式，将方法对象参数保存下来，切换时循环调用",
+                          @"TTGTagCollectionView":@"useful for showing different size tag views in a vertical or horizontal scrollable view",
+                          @"TYSnapshotScroll":@"截长图"
                           };
     }
     return _describeDict;
