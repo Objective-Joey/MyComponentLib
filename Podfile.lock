@@ -1,0 +1,16 @@
+PODS:
+  - HyCycleView (1.0.8)
+
+DEPENDENCIES:
+  - HyCycleView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HyCycleView
+
+SPEC CHECKSUMS:
+  HyCycleView: bab0c23c8b21bd69201b59099c8458e74ec64f6d
+
+PODFILE CHECKSUM: 74714a507cfb2706181b4af210be98677b132c9e
+
+COCOAPODS: 1.11.3
